@@ -1,0 +1,233 @@
+#nav_contact {
+  background-color: rgba(42, 58, 72, 0.07);
+  padding: 10px;
+}
+.countact_container {
+  width: 100%;
+}
+.contact_heading {
+  margin-left: 0px;
+  text-align: left;
+  padding-left: 10px;
+}
+.contact_container_body {
+  display: flex;
+  padding-top: 24px;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 48px;
+  padding-bottom: 55px;
+  width: 100%;
+  padding: 50px 20px;
+  background-color: var(--alice-blue-background);
+}
+
+.contact_info {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact_info_header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px;
+  color: var(--dark-blue);
+}
+
+.contact_info_content {
+  width: max-content;
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_info_content_inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px 0px;
+  align-items: center;
+  width: 100%;
+}
+
+.contact_info_content_inner img {
+  width: 42px;
+  height: auto;
+}
+#dBrewerz_email {
+  width: 100%;
+}
+#dBrewerz_phone {
+  width: 100%;
+}
+form {
+  width: 85%;
+  margin: auto;
+  padding: 25px 0px;
+}
+
+.contact_form {
+  width: 350px;
+  height: auto;
+  border-radius: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  -webkit-box-shadow: 0 0 18px rgb(31 37 89 / 50%);
+  box-shadow: 0 0 18px rgb(31 37 89 / 50%);
+}
+.validation_error {
+  display: flex;
+  flex-wrap: nowrap;
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: rubik;
+}
+
+input {
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 20px;
+  height: 35px;
+  border: 1px solid #cbc8c8;
+  box-shadow: 0px 2px 8px rgb(244 38 62 / 4%), 0px 1px 3px rgb(31 37 89 / 7%);
+}
+
+input[type="submit"] {
+  background-color: var(--dark-blue);
+  font-size: 18px;
+  color: white;
+  margin-top: 40px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: var(--orange);
+}
+
+.contact_form_category {
+  display: flex;
+}
+
+.contact_form_name {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-family: var(--dark-blue);
+}
+
+.contact_form_name_inner {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.contact_form_category {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+#contact_form_dropdown_services_sub {
+  width: 100%;
+}
+
+.contact_form_category_inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contact_form_category_inner_first {
+  margin-right: 40px;
+}
+.contact_form_category_inner select {
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 10px;
+  height: 62px;
+  border: 1px solid #cbc8c8;
+  box-shadow: 0px 2px 8px rgb(244 38 62 / 4%), 0px 1px 3px rgb(31 37 89 / 7%);
+}
+option {
+  color: var(--dark-blue);
+  font-size: 14px;
+  padding: 20px;
+  margin: 20px;
+}
+#contact_form_name_inner_fname {
+  margin-right: 40px;
+}
+
+.contact_form_email {
+  padding: 10px 0px;
+}
+
+label {
+  font-size: 14px;
+  font-family: VesperLibre;
+  font-weight: 700;
+  margin-left: 10px;
+  color: var(--dark-blue);
+}
+
+.contact_form_message {
+  margin: 10px 0px;
+}
+.captcha_box {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.captcha_box span {
+  font-size: 14px;
+  width: 80px;
+  font-family: VesperLibre;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+#retry_captcha {
+  text-align: center;
+  width: max-content;
+  margin-left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+#captcha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/public/assets/images/captcha.jpg");
+  padding: 0px 10px;
+}
+
+#contact_form_message {
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #cbc8c8;
+  box-shadow: 0px 2px 8px rgb(244 38 62 / 4%), 0px 1px 3px rgb(31 37 89 / 7%);
+}
+textarea {
+  padding: 20px;
+}
+
+iframe {
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  .contact_container_body {
+    flex-wrap: wrap;
+  }
+}
